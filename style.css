@@ -40,6 +40,10 @@ a:hover{
 	padding: 30px;
 	font-size: 50px;
 }
+.nav-button{
+	font-size: 35px;
+	padding: 10px;
+}
 .sm-button-small{
 	padding: 15px;
 	font-size: 25px;
@@ -88,8 +92,25 @@ a:hover{
 	width: 200px;
 	margin: auto;
 }
+.lang-card:hover{
+	box-shadow: 2px 2px 3px black;
+}
 
 .strong{
 	font-size: 1.25em;
 	font-weight: bolder;
 }
+
+.side-nav {
+	position: fixed;
+	margin: 0px;
+	height: 97%;
+    display: grid;
+    grid-template-columns: 15%;
+    grid-template-rows: 33% 33% 33%;
+    grid-column-gap: 5px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+    background-color: rgba(147, 108, 126, 1.0);
+ }
