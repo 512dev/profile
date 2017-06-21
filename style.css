@@ -22,7 +22,7 @@ a {
     color: #5B5B5B;
 }
 a:hover{
-	color: rgb(147, 108, 126);
+	color: #B71C1C;
 }
 #info {
 	font-size: 1.25em;
@@ -78,7 +78,8 @@ a:hover{
 }
 .list-none {
 	list-style: none;
-	color: #5B5B5B;
+	/*color: #5B5B5B;*/
+	color: #B71C1C;
 	display: block;
 }
 .container {
