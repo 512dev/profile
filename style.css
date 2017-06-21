@@ -1,7 +1,8 @@
 
 body{
 	/*background-color: rgb(147, 108, 126);*/
-	background-color: #00CAE8;
+	/*background-color: #00CAE8;*/
+	background: url("/images/background4.png") no-repeat center center;
 }
 h1, h2, h3 {
 	font-family: 'Roboto Condensed', sans-serif;
