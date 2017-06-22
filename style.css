@@ -2,14 +2,14 @@
 body{
 	/*background-color: rgb(147, 108, 126);*/
 	/*background-color: #00CAE8;*/
-	background: url("/images/background.png") no-repeat center center;
+	background: url("images/background.png");
 	background-size: cover;
 }
 h1, h2, h3 {
 	font-family: 'Roboto Condensed', sans-serif;
 }
 h1{
-	font-size: 4em;
+	font-size: 3.5em;
 }
 h2{
 	font-size: 2em;
@@ -34,7 +34,7 @@ a:hover{
 #profile-img{
 	float: left;
 	border-radius: 5px;
-	margin-right: 20px;
+	margin-left: 30px;
 	width: 40%;
 }
 .sm-button{
@@ -111,9 +111,11 @@ a:hover{
 	width: 200px;
 	margin: auto;
 	margin-top: 30px;
+	transition: all 0.15s ease;
 }
 .lang-card:hover{
-	box-shadow: 2px 2px 3px black;
+/*	box-shadow: 2px 2px 3px black;*/
+	transform: scale(1.2);
 }
 
 .strong{
@@ -125,19 +127,7 @@ a:hover{
 	right: 5px;
 	top: 0px;
 }
-
-
-
-/*.side-nav {
-	position: fixed;
-	margin: 0px;
-	height: 97%;
-    display: grid;
-    grid-template-columns: 15%;
-    grid-template-rows: 33% 33% 33%;
-    grid-column-gap: 5px;
-    grid-row-gap: 20px;
-    justify-items: stretch;
-    align-items: stretch;
-    background-color: rgba(147, 108, 126, 1.0);
- }*/
+.sm-icon:hover{
+	transition: all 0.15s ease;
+	transform: scale(1.2);
+}
