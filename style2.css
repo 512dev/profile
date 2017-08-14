@@ -1,0 +1,114 @@
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+}
+h1{
+	font-size: 6em;
+}
+h2{
+	font-size: 4em;
+}
+h3{
+	color: black;
+}
+p {
+	font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 16px;
+}
+a {
+	text-decoration: none;
+    color: white;
+}
+a:hover{
+	color: #B7C8D5;
+	text-decoration: none;
+}
+body{
+	margin: 0;
+}
+.vertical-center{
+	display: flex;
+	align-items: center;
+}
+.parallax-full{
+	height: 100vh;
+}
+.parallax-half{
+	height: 70vh;
+}
+.navbar-fixed-top{
+	position: fixed;
+}
+.navbar{
+	width: 100%;
+}
+.navbar-fixed-top.scrolled {
+  background-color: #1B1B1B !important;
+  transition: background-color 400ms linear;
+}
+.navbar-container{
+	background-color: transparent;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.nav-links ul{
+	margin-bottom: 0;
+}
+.logo-small{
+	width: 5%;
+	margin-left: 15px;
+}
+.sm-icon{
+	margin-right: 4px;
+}
+.nav-dropdown{
+	margin-right: 20px;
+}
+.nav-drop-list{
+	background-color: transparent;
+}
+.nav-drop-list li a{
+	color: white;
+
+}
+.nav-drop-list li a:hover{
+	color: #B7C8D5;
+	background-color: transparent;
+
+}
+.portfolio-container{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	min-height: 200px;
+	align-items: center;
+}
+.img-small{
+	width: 200px;
+}
+#para-1{
+	background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 100%), url('https://static.pexels.com/photos/169573/pexels-photo-169573.jpeg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+#para-2{
+	background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 100%), url('https://static.pexels.com/photos/270404/pexels-photo-270404.jpeg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#para-3{
+	background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 100%), url('https://static.pexels.com/photos/196652/pexels-photo-196652.jpeg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}

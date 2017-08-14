@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>512dev</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Condensed" rel="stylesheet">
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-container ">
+      <img src="images/logo.png" alt="512dev" class="logo-small">
+    <div class="nav-links hidden-xs hidden-sm">
+      <ul class="list-inline">
+        <li><a href="#work">Work</a></li>
+        <li><a href="#lang">Languages</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </div>
+    <!-- Nav for Large Devices -->
+    <div class="dropdown hidden-xs hidden-sm">
+      <div class="nav-dropdown">
+        <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true" data-toggle="dropdown" style="color: white;"></span>
+        <ul class="dropdown-menu dropdown-menu-right nav-drop-list">
+          <li><a href=""><i class="fa fa-github sm-icon" aria-hidden="true"></i>512dev</a></li>
+          <li><a href=""><i class="fa fa-linkedin sm-icon" aria-hidden="true"></i>Owen Klumb</a></li>
+          <li><a href=""><i class="fa fa-twitter sm-icon" aria-hidden="true"></i>@owen_klumb</a></li>
+          <li><a href=""><i class="fa fa-instagram sm-icon" aria-hidden="true"></i>@heavymetaltravel</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- Nav for Small Devices -->
+    <div class="nav-dropdown dropdown hidden-md hidden-lg">
+      <div class="nav-dropdown">
+        <span class="glyphicon glyphicon-menu-hamburger" data-toggle="dropdown" style="color: white;"></span>
+        <ul class="dropdown-menu dropdown-menu-right nav-drop-list">
+          <li><a href="#work">Work</a></li>
+          <li><a href="#lang">Languages</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href=""></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="parallax-full vertical-center" id="para-1">
+    <div class="container">
+      <div class="text-center">
+        <h1>Welcome</h1>
+      </div>
+    </div>
+  </div>  
+  <div class="parallax-half vertical-center" id="para-2">
+    <div class="container">
+      <div class="text-center ">
+        <h2>My Work</h2>
+      </div>    
+    </div>
+  </div>
+  <a name="work"></a>
+  <div class="portfolio-container">
+    <div class="example-container" data-frontend = "js css jquery" data-backend="postgres ruby rails">
+      <div class="example-image">
+        
+      </div>
+      <h3>Curator</h3>
+      <p></p>
+    </div>
+    <div class="example-container" data-frontend = "js css jquery" data-backend="postgres ruby rails">
+      <div class="example-image">
+        
+      </div>
+      <h3>BooK Trader</h3>
+      <p></p>
+    </div>
+    <div class="example-container" data-frontend = "js css jquery" data-backend="postgres ruby rails">
+      <div class="example-image">
+        
+      </div>
+      <h3>Ultimate Set List</h3>
+      <p></p>
+    </div>
+    <div class="example-container" data-backend="ruby">
+      <div class="example-image">
+        <img src="images/ruby.png" alt="ruby" class="img-small">
+      </div>
+      <h3>Fizz Buzz</h3>
+      <p>Basic Fizz Buzz exercise.</p>
+      <p class="note">Part of LeWagon Tokyo Curriculum</p>
+    </div>
+    <div class="example-container" data-frontend = "js css jquery">
+      <div class="example-image">
+        <img src="images/css3_2.png" alt="css3" class="img-small">
+      </div>
+      <h3>Wagon Race</h3>
+      <p>Basic race game using Javascript.</p>
+      <p class="note">Part of LeWagon Tokyo Curriculum</p>
+    </div>        
+  </div>
+  <div class="parallax-half vertical-center" id="para-3">
+    <div class="container">
+      <div class="text-center ">
+        <h2>Resume</h2>
+      </div>
+    </div>
+    <div class="resume-container"><a name="resume"></a>
+      
+    </div>
+  </div>
+
+<script src="https://use.fontawesome.com/08e2600aff.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+<script>
+  $(function () {
+    $(document).scroll(function () {
+      var $nav = $(".navbar-fixed-top");
+      $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    });
+  });
+</script>
+</html>
