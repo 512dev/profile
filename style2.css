@@ -8,6 +8,7 @@ h1{
 }
 h2{
 	font-size: 4em;
+	color: white;
 }
 h3{
 	color: black;
@@ -24,6 +25,7 @@ a {
 a:hover{
 	color: #B7C8D5;
 	text-decoration: none;
+	transition: all 0.15s ease;
 }
 body{
 	margin: 0;
@@ -33,10 +35,10 @@ body{
 	align-items: center;
 }
 .parallax-full{
-	height: 100vh;
+	height: 97vh;
 }
 .parallax-half{
-	height: 70vh;
+	height: 50vh;
 }
 .navbar-fixed-top{
 	position: fixed;
@@ -58,6 +60,16 @@ body{
 .nav-links ul{
 	margin-bottom: 0;
 }
+.avatar{
+	border-radius: 50%;
+	margin-top: 40px;
+}
+.blurb p{
+	margin: 50px 0;
+	color: black;
+	font-size: 1.5em;
+	font-style: italic;
+}
 .logo-small{
 	width: 5%;
 	margin-left: 15px;
@@ -65,11 +77,22 @@ body{
 .sm-icon{
 	margin-right: 4px;
 }
+.lg-icon{
+	color: black;
+	font-size: 1em;
+	transition: all 0.15s ease;
+	margin: 20px;
+}
+.lg-icon:hover{
+	color: black;
+	transform: scale(1.2);
+}
 .nav-dropdown{
 	margin-right: 20px;
 }
 .nav-drop-list{
 	background-color: transparent;
+	margin-top: 10px;
 }
 .nav-drop-list li a{
 	color: white;
@@ -111,6 +134,59 @@ body{
 	max-width: 400px;
 	margin: 10px;
 }
+.btn-border{
+	border: none;
+	transition: all 0.15s ease;
+}
+.btn-border:hover{
+	color: #B7C8D5;
+	text-decoration: none;
+}
+.social-container{
+	font-size: 6em;
+	color: black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+.resume-container{
+	padding: 40px;
+}
+.langs{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+.langs p{
+	padding: 30px;
+	font-size: 1.5em;
+	transition: all 0.15s ease;
+}
+.langs p:hover{
+	transform: scale(1.2);
+}
+.skills{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+.skills p{
+	padding: 30px;
+	font-size: 1.5em;
+	transition: all 0.15s ease;
+}
+.skills p:hover{
+	transform: scale(1.2);
+}
+.skills-container h2{
+	color: black;
+}
+.skills-container p{
+	color: black;
+}
 #para-1{
 	background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 100%), url('https://static.pexels.com/photos/169573/pexels-photo-169573.jpeg');
 	background-position: center;
@@ -128,6 +204,13 @@ body{
 }
 #para-3{
 	background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 100%), url('https://static.pexels.com/photos/196652/pexels-photo-196652.jpeg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#para-4{
+	background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 100%), url('https://static.pexels.com/photos/34600/pexels-photo.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
