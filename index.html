@@ -2,57 +2,184 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Owen Klmb: Web Developer</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
-  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>512dev</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Condensed" rel="stylesheet">
-  <script src="https://use.fontawesome.com/08e2600aff.js"></script>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="card" id="info">
-      <img src="images/profile.jpg" alt="profile picture" id = "profile-img">
-      <h1>Owen Klumb</h1>
-      <h2>Web Developer and student at LeWagon Tokyo</h2>
-      <p>After many years designing rock and roll and corporate events, I am making the change to developing web apps.</p>
-      <a class="waves-effect waves-light btn red darken-4" href="#">Find Out More</a>
-    </div>
-    <div class="card" id="contact">
-      <p class="strong">Check me out on:</p>
-      <ul class="list-none">
-        <li class="list-inline-block sm-icon"><a href="#"><i class="fa fa-facebook-official sm-button" aria-hidden="true"></i></a></li>
-        <li class="list-inline-block sm-icon"><a href="#"><i class="fa fa-github sm-button" aria-hidden="true"></i></a></li>
-        <li class="list-inline-block sm-icon"><a href="#"><i class="fa fa-twitter sm-button" aria-hidden="true"></i></a></li>
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-container ">
+      <img src="images/logo.png" alt="512dev" class="logo-small">
+    <div class="nav-links hidden-xs hidden-sm">
+      <ul class="list-inline">
+        <li><a href="#work">Work</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#languages">Languages</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
       </ul>
     </div>
-    <div class="card" id="langs">
-      <div class="lang-flex" id = "lang-flex-id">
-        <div class="lang-card"><a href="#"><img class="image-list" src="images/ruby.png" alt="ruby"></a></div>
-        <div class="lang-card"><a href="#"><img class="image-list" src="images/rails.png" alt="rails"></a></div>
-        <div class="lang-card"><a href="#"><img class="image-list" src="images/sql_2.png" alt="sql"></a></div>
-        <div class="lang-card"><a href="#"><img class="image-list" src="images/html5.png" alt="html5"></a></div>
-        <div class="lang-card"><a href="#"><img class="image-list" src="images/sass.svg" alt="sass"></a></div>
-        <div class="lang-card"><a href="#"><img class="image-list" src="images/css3_2.png" alt="css"></a></div>
-      </div>
-    </div>
-
-    <div class="card" id="footer">
-      <h2>About This Page:</h2>
-      
-      <div class="footer-icons">
-        <ul class="list-none">
-          <li class="list-inline-block"><a href="#"><i class="fa fa-heart sm-button-small" aria-hidden="true"></i></a></li>
-          <li class="list-inline-block"><a href="#"><i class="fa fa-suitcase sm-button-small" aria-hidden="true"></i></a></li>
-          <li class="list-inline-block"><a href="#"><i class="fa fa-search sm-button-small" aria-hidden="true"></i></a></li>
+    <!-- Nav for Large Devices -->
+    <div class="dropdown hidden-xs hidden-sm">
+      <div class="nav-dropdown">
+        <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true" data-toggle="dropdown" style="color: white;"></span>
+        <ul class="dropdown-menu dropdown-menu-right nav-drop-list">
+          <li><a href="https://github.com/512dev"><i class="fa fa-github sm-icon" aria-hidden="true"></i>512dev</a></li>
+          <li><a href="https://www.linkedin.com/in/owen-klumb-93541a7a/"><i class="fa fa-linkedin sm-icon" aria-hidden="true"></i>Owen Klumb</a></li>
+          <li><a href="https://twitter.com/owen_klumb"><i class="fa fa-twitter sm-icon" aria-hidden="true"></i>@owen_klumb</a></li>
+          <li><a href="https://www.instagram.com/heavymetaltravel/"><i class="fa fa-instagram sm-icon" aria-hidden="true"></i>@heavymetaltravel</a></li>
         </ul>
       </div>
-
-      <p>This page has been coded during the FullStack program @LeWagon. That was probably the best experience of my entire life.</p> 
+    </div>
+    <!-- Nav for Small Devices -->
+    <div class="nav-dropdown dropdown hidden-md hidden-lg">
+      <div class="nav-dropdown">
+        <span class="glyphicon glyphicon-menu-hamburger" data-toggle="dropdown" style="color: white;"></span>
+        <ul class="dropdown-menu dropdown-menu-right nav-drop-list">
+          <li><a href="#work">Work</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#languages">Languages</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </div>
     </div>
   </div>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+</div>
+  <div class="parallax-full vertical-center" id="para-1">
+    <div class="container">
+      <div class="text-center">
+        <h1>Welcome</h1>
+      </div>
+    </div>
+  </div>
+  <a name="about"></a>
+  <div class="blurb text-center">
+    <div class="container">
+      <img src="images/profile.jpg" alt="headshot" class="avatar">
+      <p>I am a logical and creative developer who takes delight in all projects I get involved in.  I take pride in my ability to adapt to evolving situations and pivot when necessary.  When faced with a new challenge, I take it on piece by piece, with enthusiasm and fervor.</p>
+        
+    </div>
+  </div>  
+  <a name="work"></a>
+  <div class="parallax-half vertical-center" id="para-2">
+    <div class="container">
+      <div class="text-center ">
+        <h2>My Work</h2>
+      </div>    
+    </div>
+  </div>
+  <div class="portfolio-container">
+    <div class="example-container" data-frontend = "js css jquery" data-backend="postgres ruby rails">
+      <div class="example-image">
+        <img src="images/curator1.png" alt="curator" class="img-small">
+      </div>
+      <h3><a href="https://www.thecurator.online">Curator</a></h3>
+      <p>Designed and developed by a team of three, Curator seeks to help students of any level know more about the text they are reading.  By using an annotation, comment and upvote system, students can get answers to their questions with more context than a simple Internet search would provide.</p>
+      
+    </div>
+    <div class="example-container" data-frontend = "js css jquery" data-backend="postgres ruby rails">
+      <div class="example-image">
+        <img src="images/book-trader-1.png" alt="book-trader" class="img-small">
+      </div>
+      <h3><a href="https://book-trader-cm.herokuapp.com/">Book Trader</a></h3>
+      <p>Created to allow students to buy and sell their books to others at nearby universities, BookTrader is meant to be an alternative to having to go to the university book store.</p>
+      
+    </div>
+    <div class="example-container" data-frontend = "js css jquery" data-backend="postgres ruby rails">
+      <div class="example-image">
+        
+      </div>
+      <h3>Ultimate Set List</h3>
+      <p>Create your perfect setlist for your favorite bands!</p>
+    </div>
+    <div class="example-container" data-backend="ruby">
+      <div class="example-image centered">
+        <img src="images/ruby.png" alt="ruby" class="img-default">
+      </div>
+      <h3>Fizz Buzz</h3>
+      <p>Basic Fizz Buzz exercise.</p>
+      <p class="note">Part of LeWagon Tokyo Curriculum</p>
+    </div>
+    <div class="example-container" data-frontend = "js css jquery">
+      <div class="example-image centered">
+        <img src="images/css3_2.png" alt="css3" class="img-default">
+      </div>
+      <h3>Wagon Race</h3>
+      <p>Basic race game using Javascript.</p>
+      <p class="note">Part of LeWagon Tokyo Curriculum</p>
+    </div>        
+  </div>
+  <a name="resume"></a>
+  <div class="parallax-half vertical-center" id="para-3">
+    <div class="container">
+      <div class="text-center ">
+        <h2>Resume</h2>
+        <a href="images/resume_full_stack.pdf" class="btn btn-border">Click Here To Download</a>
+      </div>
+    </div>
+  </div>
+  <a name="languages"></a>
+  <div class="skills-container">
+    <div class="lang-title text-center">
+      <h2>Technical Skills</h2>
+    </div>
+    <div class="langs">
+      <p>Ruby</p>
+      <p>Rails</p>
+      <p>Sinatra</p>
+      <p>Middleman</p>
+      <p>Postgres</p>
+      <p>SQL</p>
+      <p>ActiveRecord</p>
+      <p>HTML5</p>
+      <p>Javascript</p>
+      <p>jQuery</p>
+      <p>CSS3  SASS</p> 
+      <p>JSON</p>
+      <p>Ajax</p>
+      <p>Git/Github</p>
+      <p>Adobe Photoshop/GIMP</p>
+      <p>Adobe Lightroom</p>
+      <p>Sketch/Figma</p>
+      <p>Basecamp</p>
+      <p>Trello</p>
+    </div>
+  </div>
+  <a name="contact"></a>
+  <div class="parallax-half vertical-center" id="para-4">
+    <div class="container">
+      <div class="text-center ">
+        <h2>Contact</h2>
+        <a href="mailto:owen.klumb@gmail.com" target="_top">E-Mail</a>
+      </div>
+    </div>
+  </div>
+  <div class="resume-container">
+    <div class="container text-center">
+      <h3>You can also find me on:</h3>
+        <div class="social-container">
+          <a href="https://github.com/512dev" class="lg-icon"><i class="fa fa-github " aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/owen-klumb-93541a7a/" class="lg-icon"><i class="fa fa-linkedin " aria-hidden="true"></i></a>
+          <a href="https://twitter.com/owen_klumb" class="lg-icon"><i class="fa fa-twitter " aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/heavymetaltravel/" class="lg-icon"><i class="fa fa-instagram " aria-hidden="true"></i></a>
+        </div>
+    </div>
+  </div>
+
+
+  <script src="https://use.fontawesome.com/08e2600aff.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
+<script>
+  $(function () {
+    $(document).scroll(function () {
+      var $nav = $(".navbar-fixed-top");
+      $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    });
+  });
+</script>
 </html>
